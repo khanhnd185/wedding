@@ -51,8 +51,8 @@
     text-transform:uppercase; color:#b98a9a; font-weight:500}
 
   .greeting{margin:30px 0 4px; text-align:center; font-style:italic; font-size:26px; color:#c98ba0}
-  .guest-name{margin:0 0 4px; text-align:center; font-family:'Mr De Haviland',cursive;
-    font-size:44px; line-height:1.1; font-weight:400; color:#a85b76}
+  .guest-name{margin:0 0 4px; text-align:center; font-family:'Cormorant Garamond',serif;
+    font-size:34px; line-height:1.2; font-weight:500; color:#a85b76}
 
   .names{margin:26px 0 8px; text-align:center; font-family:'Mr De Haviland',cursive;
     font-size:72px; line-height:.95; font-weight:400; color:#a85b76}
@@ -65,8 +65,10 @@
     color:#7d6068; line-height:1.7; white-space:pre-line}
 
   .date-block{display:flex; align-items:center; justify-content:center; gap:26px; margin:32px 0}
+  .date-center{text-align:center}
   .date-line{display:block; width:44px; height:1px; background:#e0b6c4}
-  .weekday,.monthyear{margin:0; font-size:15px; letter-spacing:.34em; text-transform:uppercase; color:#b98a9a}
+  .weekday,.monthyear{margin:0; font-size:15px; letter-spacing:.34em; text-indent:.34em;
+    text-transform:uppercase; color:#b98a9a}
   .day{margin:8px 0; font-size:46px; line-height:1; font-weight:500; color:#a85b76}
   .time{margin:0; text-align:center; font-size:20px; font-style:italic; color:#7d6068}
 
@@ -84,7 +86,7 @@
   @media(max-width:560px){
     .keyline-inner{padding:40px 24px 36px}
     .names{font-size:56px}
-    .guest-name{font-size:36px}
+    .guest-name{font-size:28px}
     .blossom{display:none}
   }
 </style>
@@ -133,7 +135,7 @@ at the celebration of their marriage</p>
 
           <div class="date-block">
             <span class="date-line"></span>
-            <div>
+            <div class="date-center">
               <p class="weekday">Saturday</p>
               <p class="day">12</p>
               <p class="monthyear">September 2026</p>
